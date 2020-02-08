@@ -97,25 +97,10 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void onClick(View v)
-    {
-
-    }
-
     public void calculateBill()
     {
         // Update the tipTextView and the totalTextView.
         tipTextView.setText(currency.format(currentBill.getTipAmount())) ;
         totalTextView.setText(currency.format(currentBill.getTotalAmount())) ;
-    }
-
-    public void onTextChanged()
-    {
-
-    }
-
-    public void onProgressChanged()
-    {
-
     }
 }
